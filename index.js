@@ -55,7 +55,7 @@ app.get('/youtube', (req,res) => {
     res.send('<h2>You can enjoy youtube with chai </h2>')
 })
 
-app.get('github', (req,res) => {
+app.get('/github', (req,res) => {
     res.json(githubData)
 })
 
